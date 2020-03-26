@@ -1,10 +1,1 @@
-list =['guvi','learning','is','awesome','asla']
-
-def foo(x):
-    print (x*3)
-
-def mymap(fun,list):
-    for item in list:
-        fun(item)
-
-mymap(foo,list)
+print (sorted([1, 2, 3, 4, 5, 6, 7, 8, 9], key=lambda x: abs(5-x)))
