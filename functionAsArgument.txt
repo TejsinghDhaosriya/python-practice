@@ -1,0 +1,4 @@
+list =['guvi','learning','is','awesome','asla']
+
+def foo(x):
+
