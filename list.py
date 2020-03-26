@@ -10,6 +10,7 @@ names3[1] = 'Bob'
 
 sum = 0
 for ls in (names1, names2, names3):
+    print(ls[0])
     if ls[0] == 'Alice':
         sum += 1
      #   print(ls[0])
