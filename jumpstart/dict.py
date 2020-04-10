@@ -1,14 +1,19 @@
-dict = {}
+dict={
+     'tej':'patel',
+     'age':33,
+     'ram':{'b':'poha','l':'roti'}
+     
+            }
+dict['patel']='singh'
+dict[12]=21
+dict.update({12:34})
 
-print(type(dict))
-tu = ()
+print(dict['tej'])
+print(dict['tej'])
+print(dict['patel'])
+print(dict[12])
+print(dict['ram']['b'])
 
-print(type(tu))
-lis = []
-
-print(type(lis))
-lis = ()
-
-print(type(lis))
-
-
+print(dict)
+##del dict[12]
+#print(dict)
