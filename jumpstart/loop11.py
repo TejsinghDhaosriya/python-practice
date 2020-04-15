@@ -1,4 +1,4 @@
-list1 = ['ram','shayam','ghanshyam']
+list1 =[ ['ram','shayam','ghanshyam'],['ram','shayam','ghanshyam',],["apple", "banana", "cherry"],[  "kiwi", "melon", "mango"]]
 
-for list in list1:
-    print(list)
+for list ,l,s in list1:
+    print(list, l, s)
