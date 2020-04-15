@@ -7,3 +7,7 @@ for list12l in dict2:
 for list12l in list1:
     if str(list12l).isnumeric() and list12l >1:
         print(list12l )
+i=0
+while i<10:
+    print(i)
+    i+=1
